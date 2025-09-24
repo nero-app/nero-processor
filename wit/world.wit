@@ -7,6 +7,11 @@ world processor {
     import wasi:logging/logging@0.1.0-draft;
     import wasi:keyvalue/store@0.2.0-draft;
 
+    @unstable(feature = processor-sidecars)
+    import wit:process/process@0.1.0-draft;
+    @unstable(feature = processor-sidecars)
+    import ffmpeg-sidecar;
+
     type http-resource = incoming-request;
     export resolve-resource: func(http-resource: http-resource) -> string;
 }
