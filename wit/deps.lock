@@ -20,11 +20,6 @@ deps = ["cli", "clocks", "filesystem", "io", "random", "sockets"]
 sha256 = "62ae80f2e340cddbac8e94f78e6270735aea536367ecb98de5f4ac6aef66b5c4"
 sha512 = "a02a1ebd261ae884b0315b3528d1a93819ddc4b616f66c77f2bea9dd1de888208dc3b9004a553363f5e8491ea925d65ebbd0d68eaa87238316b47469a3bf97bb"
 
-[keyvalue]
-url = "https://github.com/WebAssembly/wasi-keyvalue/archive/v0.2.0-draft.tar.gz"
-sha256 = "d2de617fe31ec0abc6072f75f97dd22bf95b3231d5b3111471d73871df9081cd"
-sha512 = "6f0b4e44c684d760c54552e2bde9bc976e0a4f6525fc1d47acb98625e030847276436242f42a41f4da1bb9169fb2968c53d659d61af9b2f709f4eb6f9880e2c7"
-
 [logging]
 url = "https://github.com/WebAssembly/wasi-logging/archive/d31c41d0d9eed81aabe02333d0025d42acf3fb75.tar.gz"
 sha256 = "ad81d8b7f7a8ceb729cf551f1d24586f0de9560a43eea57a9bb031d2175804e1"
